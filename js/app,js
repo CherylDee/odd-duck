@@ -1,6 +1,6 @@
 // ****CONSTRUCTOR FUNCTION ****
 
-function voteProduct(name, imgExtension = 'jpg') {
+function VoteProduct(name, imgExtension = 'jpg') {
   this.name = name;
   this.img = `img/${name}.${imgExtension}`;
   this.votes = 0;
