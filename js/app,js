@@ -1,1 +1,15 @@
+// ****CONSTRUCTOR FUNCTION ****
+
+function voteProduct(name, imgExtension = 'jpg') {
+  this.name = name;
+  this.img = `img/${name}.${imgExtension}`;
+  this.votes = 0;
+  this.views = 0;
+}
+
+// **** HELPER FUNCTIONS / UTILITIES ****
+
+// **** EVENT HANDLERS ****
+
+// **** EXECUTABLE CODE ****
 
